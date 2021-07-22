@@ -1,0 +1,39 @@
+form {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 350px;
+}
+ul li.t1 {
+  list-style: none;
+  padding: 20px;
+  border-bottom: 3px double darkslategray;
+}
+ul li.t1 label {
+  padding-right: 20px;
+  color: olivedrab;
+  font-weight: bolder;
+}
+ul li.t2 {
+  list-style: none;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+th,
+td {
+  height: 30px;
+  border: 2px solid bisque;
+}
+td {
+  text-align: center;
+}
+table thead tr {
+  background-color: linen;
+}
